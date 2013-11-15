@@ -90,9 +90,7 @@
           conflict causado por el paso 4.
         </h3>
         <div class="answer">
-          Colocar acá el hash. Nota: El hash sería algo como: 8a000d3d2ec8b5f8b2286ad279c54b430fc97c67<br />
-          o mejor aún, podrían apuntarlo directamente a github:
-          <a href="https://github.com/devlabs-usb/tarea1-git/commit/8a000d3d2ec8b5f8b2286ad279c54b430fc97c67" target="blank">8a000d3d2ec8b5f8b2286ad279c54b430fc97c67</a>
+          <a href="https://github.com/leddkire/tarea1-git/commit/28fb383bc91f4a231ed15f170779062a02641cdd" target="blank">8a000d3d2ec8b5f8b2286ad279c54b430fc97c67</a>
         </div>
       </article>
       <article id="q2">
@@ -107,10 +105,7 @@
           subsecuencia “DD”.
         </h3>
         <div class="answer">
-          Coloca tu respuesta aquí.<br/>
-          Opcionalmente, puedes poner los archivos con la solución
-          en tu repositorio y poner la dirección del archivo acá.
-          Como por ejemplo: /Código/Scrabble.py
+      	La respuesta se encuentra en la direccion: /Codigo/ejercicioTarea1.py
         </div>
       </article>
       <article id="q3">
@@ -120,7 +115,17 @@
           repo', 'dirty working tree' y 'merge conflict'.
         </h3>
         <div class="answer">
-          Coloca tus respuestas aquí.
+          Working Directory: Es el lugar en donde se modifican, crean, y eliminan archivos relacionados al proyecto, pero que todavia no han sido guardados permanentemente en el repositorio.
+	</br>
+	Index: Es el sitio que contiene todos los archivos que luego seran guardados en el repositorio.
+	</br>
+	Local Repo: Es aquel repositorio que esta ubicado en algun directorio en la maquina local la cual puede hace referencia a algun repositorio remoto.
+	</br>
+	Remote Repo: Es aquel repositorio que se encuentra alojado en algun servidor externo.
+	</br>
+	Dirty Working Tree: Es un estado en la cual la rama en la que se esta trabajando actualmente se le ha hecho modificaciones pero aun no se han guardado en el repositorio.
+	</br>
+	Merge Conflict: Es un evento durante la integracion de dos archivos la cual ocurre cuando la misma parte de un mismo archivo en las dos ramas que se estan tratando de integrar son distintas. 
         </div>
       </article>
       <article id="q4">
@@ -150,42 +155,42 @@
             <tbody>
               <tr>
                 <th scope="row">working dir</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <th scope="row">index</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>R/W</td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <th scope="row">local repo</th>
-                <td></td>
-                <td></td>
+                <td>R</td>
+                <td>W</td>
+                <td>R</td>
                 <td></td>
                 <td>W</td>
                 <td></td>
+                <td>W</td>
+              </tr>
+              <tr>
+                <th scope="row">index</th>
+                <td>R</td>
+                <td>W</td>
+                <td>W</td>
+                <td>R/W</td>
+                <td>R/W</td>
+                <td></td>
+                <td>R</td>
+              </tr>
+              <tr>
+                <th scope="row">local repo</th>
+                <td>R</td>
                 <td></td>
                 <td></td>
+                <td>W</td>
+                <td>W</td>
+                <td>R</td>
+                <td>R</td>
               </tr>
               <tr>
                 <th scope="row">remote repo</th>
                 <td></td>
+                <td>R</td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>R</td>
+                <td>W</td>
                 <td></td>
               </tr>
             </tbody>
